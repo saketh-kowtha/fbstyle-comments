@@ -93,11 +93,11 @@ export default function CommentView({
 }
 
 //TODO: working on this
-const Elipisis = styled.span`
-  position: absolute;
-  top: 18px;
-  right: -20px;
-`;
+// const Elipisis = styled.span`
+//   position: absolute;
+//   top: 18px;
+//   right: -20px;
+// `;
 
 const Container = styled.div`
   display: inline-flex;

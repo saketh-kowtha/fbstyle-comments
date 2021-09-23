@@ -13,7 +13,7 @@ export default function RepliedOn({ ts }) {
     }, 1000);
 
     return () => clearInterval(idx);
-  }, []);
+  }, [ts]);
 
   return <Label>{formattedDate}</Label>;
 }

@@ -103,19 +103,18 @@ const Container = styled.div`
   display: inline-flex;
   position: relative;
   margin-top: 6px;
+  ${(props) =>
+    props.level > 0 &&
+    `
+::before {
+  position: relative;
+  left: 10px;
+  top: 35px;
+  content: "";
+  border-left: 1px dashed #d8d8d8;
+}
+`};
 `;
-
-// ${(props) =>
-//   props.level > 0 &&
-//   `
-// ::before {
-//   position: relative;
-//   left: 10px;
-//   top: 35px;
-//   content: "";
-//   border-left: 1px dashed #d8d8d8;
-// }
-// `};
 
 const Ul = styled.ul`
   margin: 0 0 0 10px;

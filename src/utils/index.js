@@ -30,7 +30,6 @@ export function deleteComment(replyComments, idx) {
 }
 
 export function addNewReply(replyComments, idx, comment) {
-  console.log(replyComments, idx);
   if (!idx) {
     if (replyComments.replies) {
       replyComments.replies.push(comment);

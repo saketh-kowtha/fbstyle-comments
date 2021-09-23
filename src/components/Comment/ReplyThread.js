@@ -83,7 +83,7 @@ export default function Reply({ replies, level = 0, author, idx }) {
 }
 
 const Container = styled.div`
-  margin-left: ${(props) => props.level * 30}px;
+  margin-left: 20px;
   position: relative;
 `;
 

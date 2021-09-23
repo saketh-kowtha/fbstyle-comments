@@ -17,7 +17,3 @@ function App() {
 }
 
 export default App;
-
-//TODO: 3. Add icons
-//TODO: 4. Increase performance
-//TODO: 5. Draw architecture diagram

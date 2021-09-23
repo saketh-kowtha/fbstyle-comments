@@ -1,0 +1,54 @@
+{
+    "author": "Ozone",
+    "idx": "1243",
+    "replies": [
+        {
+            "authorName": "Eman",
+            "message": "This is a comment 1",
+            "idx": "2021-09-13T17:57:12.257Z",
+            "icon": "user1.jpeg"
+        },
+        {
+            "authorName": "Amr ezzat",
+            "message": "This is a comment 2",
+            "idx": "2021-09-13T17:56:12.257Z",
+            "icon": "user2.jpeg"
+        },
+        {
+            "authorName": "Ozone",
+            "message": "This is a comment 3",
+            "idx": "2021-09-14T17:57:12.257Z",
+            "icon": "user1.jpeg",
+            "replies": [
+                {
+                    "authorName": "Obianuju",
+                    "message": "This is a comment 1 thread 1",
+                    "idx": "2021-09-14T15:56:12.257Z",
+                    "icon": "user1.jpeg",
+                    "replies": [
+                        {
+                            "authorName": "Amr ezzat",
+                            "message": "Okay t2 c1",
+                            "icon": "user2.jpeg",
+                            "idx": "2021-09-14T17:52:12.257Z"
+                        },
+                        {
+                            "authorName": "obzo",
+                            "message": "Okay t2 c2",
+                            "idx": "2021-09-14T17:50:12.257Z",
+                            "icon": "user1.jpeg",
+                            "replies": [
+                                {
+                                    "authorName": "Obiaszlksm",
+                                    "message": "Okay ...",
+                                    "idx": "2021-09-14T17:45:12.257Z",
+                                    "icon": "user2.jpeg"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { Provider } from "react-redux";
+import store from "./store";
+import CommentWidget from "./pages/comment-widget";
+import { ThemeProvider } from "styled-components";
+import theme from "./styles/theme";
+import GlobalStyles from "./styles/GlobalStyles";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Provider store={store}>
+      <ThemeProvider theme={theme}>
+        <GlobalStyles />
+        <CommentWidget />
+      </ThemeProvider>
+    </Provider>
   );
 }
 
 export default App;
+
+//TODO: 3. Add icons
+//TODO: 4. Increase performance
+//TODO: 5. Draw architecture diagram
